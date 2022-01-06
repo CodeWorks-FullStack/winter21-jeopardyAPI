@@ -1,0 +1,18 @@
+/* BASIC STYLES HERE */
+
+.max-height{
+  min-height: 70vh;
+}
+
+.max-width{
+  min-width: 80vw;
+}
+
+
+.answer{
+  display: none;
+}
+
+.show:hover + .answer{
+  display: block;
+}
